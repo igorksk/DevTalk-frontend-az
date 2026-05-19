@@ -9,8 +9,9 @@ export default defineConfig({
     // Proxy API calls to the ASP.NET Core backend during development
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://localhost:52383',
         changeOrigin: true,
+        secure: false, // accept ASP.NET Core self-signed dev certificate
       },
     },
   },
