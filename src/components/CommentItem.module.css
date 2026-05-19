@@ -1,0 +1,32 @@
+.comment {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.author {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
+
+.date {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+.body {
+  font-size: 0.925rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
